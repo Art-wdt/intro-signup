@@ -1,0 +1,77 @@
+body {
+    /* background-color: rgb(255,121,120); */
+    background-color: hsl(0, 100%, 74%) ;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+
+
+
+.header {
+    padding-top: 80px;
+    background: url("../images/bg-intro-desktop.png") no-repeat center center;
+    height: 100vh;
+}
+
+h1 {
+    font-size: 2.7rem;
+    margin-bottom: 20px;
+}
+
+form {
+    background-color: #fff;
+    padding: 40px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+.form-control {
+    height: calc(2em + 0.75rem  + 2px);
+    font-weight: 700;
+}
+
+.mybtn {
+    font-size: 1rem;
+}
+
+.btnshadow {
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.29);
+}
+
+.btn-lg {
+    padding: 0.9rem 1rem;
+}
+
+.purple-btn {
+    background-color: hsl(248, 32%, 49%);
+    border: 0;
+    }
+
+.green-btn {
+    background-color: hsl(154, 59%, 51%);
+}
+
+.agree {
+    margin-top: 10px;
+    
+}
+
+
+span {
+    color: orangered;
+    font-weight: 700;
+}
+
+/* 576px - 768px */
+@media screen and (max-width: 768px) {
+	h1 {
+		text-align: center;
+        font-size: 2.0rem;
+	}	
+
+    .intro__text {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+}
+
